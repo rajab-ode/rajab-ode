@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @rajab-ode
 - 👀 I’m interested in Web App Development with Fullstack web developer
 - 🌱 I’m currently learning nodejs as back end
-- 💞️ I’m looking to collaborate on project web app with node js
+- 💞️ I’m looking to collaborate on web app project with node js as a back end
 - 📫 How to reach me ig mrajab_007
 
 <!---
