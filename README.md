@@ -101,7 +101,7 @@ Designed and delivered a production computer vision platform for enterprise secu
 | **Impact** | Production-grade surveillance intelligence · Active Learning pipeline for continuous model improvement |
 | **Repository** | [![Private](https://img.shields.io/badge/Confidential-NDA%20Protected-7C3AED?style=flat-square&logo=github&logoColor=white)](#) |
 
-**Capabilities demonstrated:** RTSP stream ingestion at scale · YOLOv8 custom inference · ByteTrack intra-camera tracking · CLIP-ReID cross-camera re-identification with gallery embeddings · pgvector semantic search · multi-bounding-box annotation UI (React/Canvas) · event-driven pipeline with RabbitMQ · Vue 3 dashboard frontend.
+
 
 </details>
 
@@ -123,7 +123,7 @@ Architected and built a large-scale Security Resource Management platform from t
 | **Impact** | End-to-end delivery across web dashboard, mobile client, and full enterprise documentation suite |
 | **Repository** | [![Private](https://img.shields.io/badge/Confidential-NDA%20Protected-4F46E5?style=flat-square&logo=github&logoColor=white)](#) |
 
-**Capabilities demonstrated:** Go microservices architecture · API gateway pattern · RabbitMQ event messaging · Jaeger distributed tracing · Docker Compose orchestration · Vue 3 + Quasar frontend · Flutter mobile client · PostgreSQL schema design · high-availability cloud infrastructure sizing.
+
 
 </details>
 
