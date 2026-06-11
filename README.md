@@ -86,88 +86,88 @@ I have hands-on experience integrating real-time video streams, designing distri
 ## ⬡ Featured Projects
 
 <details>
-<summary><strong>VigilAI — AI-Powered Multi-Camera CCTV Analytics Platform</strong></summary>
+<summary><strong>Computer Vision · Real-Time Multi-Camera Analytics System</strong></summary>
 
 <br/>
 
-An enterprise-grade computer vision platform providing real-time surveillance intelligence across distributed camera networks. Built to serve security operations centers requiring cross-camera person tracking, behavioral anomaly detection, and semantic event retrieval at scale.
+Designed and delivered a production computer vision platform for enterprise security operations. The system ingests live RTSP streams from distributed camera networks, runs real-time object detection and tracking, and enables semantic search across thousands of hours of recorded footage — all without human-in-the-loop review for routine events.
 
 | Attribute | Detail |
 |:---|:---|
 | **Stack** | Python · FastAPI · YOLOv8 · ByteTrack · CLIP-ReID · pgvector · Vue 3 · PostgreSQL · RabbitMQ |
-| **Scale** | 10+ simultaneous RTSP camera channels · NVR integration (Hikvision, Tiandy) |
-| **Performance** | Real-time inference · MediaMTX stream relay · sub-second event detection |
-| **Security** | Zone violation detection · unauthorized overtime alerts · behavioral rule engine |
-| **Impact** | Production deployment for enterprise security operations · Active Learning annotation pipeline |
-| **Repository** | [![Private](https://img.shields.io/badge/Repo-Enterprise%20Private-7C3AED?style=flat-square&logo=github&logoColor=white)](#) |
+| **Scale** | 10+ simultaneous RTSP camera channels · multi-vendor NVR integration |
+| **Performance** | Real-time inference · sub-second event detection · MediaMTX stream relay |
+| **Security** | Zone violation detection · behavioral rule engine · unauthorized activity alerts |
+| **Impact** | Production-grade surveillance intelligence · Active Learning pipeline for continuous model improvement |
+| **Repository** | [![Private](https://img.shields.io/badge/Confidential-NDA%20Protected-7C3AED?style=flat-square&logo=github&logoColor=white)](#) |
 
-The platform implements a full computer vision stack from RTSP ingestion through object detection, intra-camera tracking, and cross-camera Re-ID — culminating in a searchable event database powered by pgvector embeddings. The annotation module supports multi-bounding-box labeling with a React/Canvas interface, enabling continuous model improvement through active learning loops.
+**Capabilities demonstrated:** RTSP stream ingestion at scale · YOLOv8 custom inference · ByteTrack intra-camera tracking · CLIP-ReID cross-camera re-identification with gallery embeddings · pgvector semantic search · multi-bounding-box annotation UI (React/Canvas) · event-driven pipeline with RabbitMQ · Vue 3 dashboard frontend.
 
 </details>
 
 ---
 
 <details>
-<summary><strong>SentinelSRM — Security Resource Management System</strong></summary>
+<summary><strong>Enterprise Platform · Distributed Security Resource Management</strong></summary>
 
 <br/>
 
-A comprehensive Security Resource Management platform built for enterprise security operations, encompassing personnel management, incident reporting, scheduling, patrol monitoring, and compliance workflows across 13 functional modules.
+Architected and built a large-scale Security Resource Management platform from the ground up, unifying personnel management, incident reporting, patrol scheduling, and compliance workflows across web and mobile clients — deployed at high availability across geographically distributed cloud nodes.
 
 | Attribute | Detail |
 |:---|:---|
 | **Stack** | Go (Microservices) · Vue 3 · Quasar · Flutter · PostgreSQL · RabbitMQ · Jaeger · Docker |
-| **Scale** | Multi-node cloud deployment · West Java primary · Banten DR (Enterprise Cloud Infrastructure) |
-| **Performance** | Distributed tracing via Jaeger · event-driven async processing via RabbitMQ |
-| **Security** | JWT auth service · API gateway layer · role-based access control |
-| **Impact** | 13 operational modules · enterprise documentation suite · mobile + web clients |
-| **Repository** | [![Private](https://img.shields.io/badge/Repo-Enterprise%20Private-4F46E5?style=flat-square&logo=github&logoColor=white)](#) |
+| **Scale** | 13 operational modules · primary + disaster-recovery cloud nodes |
+| **Performance** | Distributed tracing via Jaeger · async event processing via RabbitMQ |
+| **Security** | JWT auth service · API gateway · role-based access control |
+| **Impact** | End-to-end delivery across web dashboard, mobile client, and full enterprise documentation suite |
+| **Repository** | [![Private](https://img.shields.io/badge/Confidential-NDA%20Protected-4F46E5?style=flat-square&logo=github&logoColor=white)](#) |
 
-SentinelSRM is architected as a Go microservices system with dedicated auth, feature, and gateway services orchestrated via Docker Compose. The Flutter mobile client and Vue 3 / Quasar web dashboard share a unified API contract. Cloud infrastructure is sized for high availability with a primary compute node in West Java and a disaster recovery node in Banten, both on Enterprise Cloud Infrastructure.
+**Capabilities demonstrated:** Go microservices architecture · API gateway pattern · RabbitMQ event messaging · Jaeger distributed tracing · Docker Compose orchestration · Vue 3 + Quasar frontend · Flutter mobile client · PostgreSQL schema design · high-availability cloud infrastructure sizing.
 
 </details>
 
 ---
 
 <details>
-<summary><strong>NexusQA — Enterprise Security Management QA Platform</strong></summary>
+<summary><strong>Internal Tooling · Enterprise QA Checklist Platform</strong></summary>
 
 <br/>
 
-A standalone quality assurance web application covering 15 functional modules of an enterprise security management platform, designed for pre-deployment validation, UAT cycles, and ongoing regression testing by QA engineers and project managers.
+Built a browser-based quality assurance platform for validating large-scale enterprise software releases across multiple functional modules. Designed to support UAT cycles and regression testing without requiring backend infrastructure — enabling deployment in constrained or air-gapped environments.
 
 | Attribute | Detail |
 |:---|:---|
 | **Stack** | Vanilla JS · HTML5 · CSS3 · Embedded JSON database · CSV export |
 | **Scale** | 15 QA modules · stateless browser-based deployment |
 | **Performance** | Zero backend dependency · instant load · offline-capable |
-| **Security** | Client-side state management · no data exfiltration surface |
-| **Impact** | Accelerates QA cycles · enables non-technical stakeholder participation |
-| **Repository** | [![Private](https://img.shields.io/badge/Repo-Internal%20Tool-6D28D9?style=flat-square&logo=github&logoColor=white)](#) |
+| **Security** | Client-side state only · no data exfiltration surface |
+| **Impact** | Accelerated UAT cycles · enabled non-technical stakeholder participation |
+| **Repository** | [![Private](https://img.shields.io/badge/Confidential-NDA%20Protected-6D28D9?style=flat-square&logo=github&logoColor=white)](#) |
 
-Built with a dark theme UI and embedded JSON as the runtime database, the application supports checklist state persistence, module-by-module progress tracking, and one-click CSV export for audit trails. Designed to operate without any backend infrastructure, enabling immediate deployment in air-gapped or constrained environments.
+**Capabilities demonstrated:** Lightweight embedded-data architecture · dark theme UI design · checklist state persistence · CSV audit trail export · zero-dependency browser deployment.
 
 </details>
 
 ---
 
 <details>
-<summary><strong>Payroll Anomaly & Nudge Bot — Intelligent HR Analytics Engine</strong></summary>
+<summary><strong>AI Analytics · Payroll Anomaly Detection & Nudge Engine</strong></summary>
 
 <br/>
 
-An automated payroll anomaly detection and employee nudge notification system, built as a client engagement under PT Codingrame Tech Solutions. The system identifies irregular payroll patterns and surfaces actionable insights to HR managers via intelligent notification workflows.
+Delivered an automated payroll anomaly detection service for an enterprise HR team, replacing a slow and error-prone manual audit process. The system applies configurable scoring thresholds to flag irregularities and routes targeted nudge notifications through the client's existing HR communication channels.
 
 | Attribute | Detail |
 |:---|:---|
-| **Stack** | Python · FastAPI · PostgreSQL · Notification APIs · Docker |
-| **Scale** | 14-day development sprint · enterprise HR dataset |
+| **Stack** | Python · FastAPI · PostgreSQL · Docker |
+| **Scale** | Enterprise HR dataset · 14-day delivery sprint |
 | **Performance** | Automated anomaly scoring · rule-based nudge generation |
-| **Security** | Data privacy compliance · role-scoped data access |
-| **Impact** | Reduces manual payroll audit effort · improves HR response latency |
-| **Repository** | [![Private](https://img.shields.io/badge/Repo-Client%20Private-8B5CF6?style=flat-square&logo=github&logoColor=white)](#) |
+| **Security** | Role-scoped data access · privacy-compliant data handling |
+| **Impact** | Reduced manual audit effort · improved HR response latency · full technical specification delivered |
+| **Repository** | [![Private](https://img.shields.io/badge/Confidential-NDA%20Protected-8B5CF6?style=flat-square&logo=github&logoColor=white)](#) |
 
-Delivered with full technical specification documentation and a Gantt chart covering the 14-day development scope. The system applies configurable anomaly thresholds and generates targeted nudge messages routed through the client's existing HR communication channels.
+**Capabilities demonstrated:** Anomaly detection algorithm design · configurable rule engine · FastAPI service architecture · PostgreSQL data pipelines · Docker deployment · technical specification documentation · rapid sprint delivery.
 
 </details>
 
@@ -207,7 +207,7 @@ Lead engineer on an AI-powered multi-camera CCTV analytics platform serving ente
 - Built cross-camera person Re-ID system using CLIP-ReID embeddings with OSNet/TransReID fallback and ByteTrack intra-camera tracking
 - Developed active learning annotation module (React/Canvas) for continuous YOLOv8 model improvement
 - Implemented semantic event search using pgvector with cosine similarity retrieval
-- Architected Go microservices system (Harita SRM) with API gateway, auth service, RabbitMQ messaging, and Jaeger distributed tracing
+- Architected Go microservices system with dedicated API gateway, auth service, RabbitMQ messaging, and Jaeger distributed tracing
 - Managed cloud infrastructure sizing and deployment on Enterprise Cloud Infrastructure (West Java + Banten DR)
 
 `YOLOv8` `ByteTrack` `CLIP-ReID` `pgvector` `Go` `FastAPI` `Vue 3` `Flutter` `Docker` `RabbitMQ` `Jaeger` `GCP` `PostgreSQL`
@@ -349,8 +349,8 @@ learning:
   - Distributed tracing and observability with OpenTelemetry
 
 building:
-  - VigilAI: production cross-camera Re-ID with CLIP-ReID embedding gallery
-  - SentinelSRM 2026: full microservices deployment on Enterprise Cloud Infrastructure
+  - Production cross-camera Re-ID pipeline with CLIP-ReID embedding gallery
+  - Go microservices platform deployment across primary and DR cloud nodes
   - PT Codingrame Tech Solutions: enterprise client portfolio and web presence
 
 exploring:
