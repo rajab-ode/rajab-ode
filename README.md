@@ -11,7 +11,8 @@
 ![B.Eng](https://img.shields.io/badge/Software%20Engineer-Enterprise%20Grade-7C3AED?style=flat-square&logo=buffer&logoColor=white)
 ![AI/ML](https://img.shields.io/badge/AI%20%2F%20ML-Computer%20Vision-4F46E5?style=flat-square&logo=openai&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Architecture-Microservices-6D28D9?style=flat-square&logo=apachekafka&logoColor=white)
-![Location](https://img.shields.io/badge/Wakatobi-Southeast%20Sulawesi%2C%20Indonesia-8B5CF6?style=flat-square&logo=googlemaps&logoColor=white)
+![Location](https://img.shields.io/badge/Indonesia-Wakatobi%20%7C%20Bogor%20%7C%20Jakarta-8B5CF6?style=flat-square&logo=googlemaps&logoColor=white)
+![Remote](https://img.shields.io/badge/Remote-Florida%2C%20United%20States-6D28D9?style=flat-square&logo=googlemaps&logoColor=white)
 
 <br/>
 
@@ -36,7 +37,7 @@ I am a Software Engineer and technology entrepreneur building AI-powered enterpr
 
 My work spans the full engineering lifecycle: from low-level AI pipeline design (object detection, cross-camera Re-ID, semantic search) through backend microservices in Go, to polished product frontends in Vue 3 and Flutter. I approach every system with a product engineering mindset — prioritizing observability, scalability, and maintainability alongside feature delivery.
 
-I have hands-on experience integrating real-time video streams, designing distributed event-driven architectures with RabbitMQ, deploying containerized services on cloud infrastructure (GCP, Biznet GIO), and building annotation/active-learning tooling for computer vision workflows.
+I have hands-on experience integrating real-time video streams, designing distributed event-driven architectures with RabbitMQ, deploying containerized services on cloud infrastructure (GCP, Enterprise Cloud), and building annotation/active-learning tooling for computer vision workflows.
 
 **Open To:**
 `Senior Software Engineer Roles` · `AI/ML Engineering Contracts` · `Technical Consulting` · `Open Source Collaboration` · `Remote Enterprise Projects`
@@ -116,13 +117,13 @@ A comprehensive Security Resource Management platform built for enterprise secur
 | Attribute | Detail |
 |:---|:---|
 | **Stack** | Go (Microservices) · Vue 3 · Quasar · Flutter · PostgreSQL · RabbitMQ · Jaeger · Docker |
-| **Scale** | Multi-node cloud deployment · West Java primary · Banten DR (Biznet GIO Enterprise Cloud) |
+| **Scale** | Multi-node cloud deployment · West Java primary · Banten DR (Enterprise Cloud Infrastructure) |
 | **Performance** | Distributed tracing via Jaeger · event-driven async processing via RabbitMQ |
 | **Security** | JWT auth service · API gateway layer · role-based access control |
 | **Impact** | 13 operational modules · enterprise documentation suite · mobile + web clients |
 | **Repository** | [![Private](https://img.shields.io/badge/Repo-Enterprise%20Private-4F46E5?style=flat-square&logo=github&logoColor=white)](#) |
 
-SentinelSRM is architected as a Go microservices system with dedicated auth, feature, and gateway services orchestrated via Docker Compose. The Flutter mobile client and Vue 3 / Quasar web dashboard share a unified API contract. Cloud infrastructure is sized for high availability with a primary compute node in West Java and a disaster recovery node in Banten, both on Biznet GIO Enterprise Cloud.
+SentinelSRM is architected as a Go microservices system with dedicated auth, feature, and gateway services orchestrated via Docker Compose. The Flutter mobile client and Vue 3 / Quasar web dashboard share a unified API contract. Cloud infrastructure is sized for high availability with a primary compute node in West Java and a disaster recovery node in Banten, both on Enterprise Cloud Infrastructure.
 
 </details>
 
@@ -183,6 +184,20 @@ Leading an independent software consultancy delivering enterprise-grade AI, full
 
 ---
 
+**AI-Augmented Full Stack Developer**
+Strata52 · *Contract · Mar 2026 – Present · Florida, United States (Remote)*
+
+Delivering AI-augmented full stack development on contract for a US-based client, building modern web systems with integrated AI capabilities. Operating fully remote across international time zones as part of PT Codingrame's enterprise client engagements.
+
+- Develop and maintain full stack web applications with AI-augmented workflows
+- Integrate LLM-powered features into production product surfaces
+- Collaborate asynchronously with US-based team across distributed sprint cycles
+- Apply modern frontend and backend patterns with AI tooling at the core of the development process
+
+`Full Stack Development` `AI Integration` `Remote Collaboration` `Vue 3` `Python` `API Design` `LLM Tooling`
+
+---
+
 **Software Engineer — AI/CV Platform**
 PT Verolux Optima Teknologi · *Full-time · Present*
 
@@ -193,7 +208,7 @@ Lead engineer on an AI-powered multi-camera CCTV analytics platform serving ente
 - Developed active learning annotation module (React/Canvas) for continuous YOLOv8 model improvement
 - Implemented semantic event search using pgvector with cosine similarity retrieval
 - Architected Go microservices system (Harita SRM) with API gateway, auth service, RabbitMQ messaging, and Jaeger distributed tracing
-- Managed cloud infrastructure sizing and deployment on Biznet GIO Enterprise Cloud (West Java + Banten DR)
+- Managed cloud infrastructure sizing and deployment on Enterprise Cloud Infrastructure (West Java + Banten DR)
 
 `YOLOv8` `ByteTrack` `CLIP-ReID` `pgvector` `Go` `FastAPI` `Vue 3` `Flutter` `Docker` `RabbitMQ` `Jaeger` `GCP` `PostgreSQL`
 
@@ -335,7 +350,7 @@ learning:
 
 building:
   - VigilAI: production cross-camera Re-ID with CLIP-ReID embedding gallery
-  - SentinelSRM 2026: full microservices deployment on Biznet GIO Enterprise Cloud
+  - SentinelSRM 2026: full microservices deployment on Enterprise Cloud Infrastructure
   - PT Codingrame Tech Solutions: enterprise client portfolio and web presence
 
 exploring:
